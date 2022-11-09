@@ -9,4 +9,5 @@ function myclick() {
   //   console.log("work");
   let a = document.querySelector(".input_focuse").value;
   console.log(a);
+  document.querySelector(".out").innerHTML = a;
 }
